@@ -1,3 +1,9 @@
+/* Programming Fundamentals
+ * NAME: Michael Carrasco
+ * PROGRAMMING ASSIGNMENT 2
+ * Summer 2020
+ */
+
 import java.util.Scanner;
 
 public class Figures {
@@ -38,7 +44,7 @@ public class Figures {
 		
 
 	}
-	public static void printBox() {
+	public static void printBox() { //creates our box shape
 		for (int i=0;i<size;i=i+1) {  
 		for (int j=0;j<size;j=j+1) {
 			System.out.print("X");
@@ -46,7 +52,7 @@ public class Figures {
 			System.out.println();
 		}
 	}
-	public static void printX() {
+	public static void printX() { //creates our x shape
 	for (int i = 0; i < length; i++) {
         int j = length - 1 - i; 
         for (int k = 0; k < length; k++) { 
@@ -58,7 +64,7 @@ public class Figures {
         System.out.println(""); 
     }
 	}
-	public static void printDiamond() {
+	public static void printDiamond() { //creates half of our diamond shape :(
 			for (int i = 0; i < length; i++) {
 	          int j = length - 1 - i;
 	          for (int k = length/2; k < length; k++) { 
